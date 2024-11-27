@@ -1,0 +1,118 @@
+﻿<html>
+<head>
+<style>
+.slideshow{width: 100%;height: 520px;}
+#slideimage{width: 100%;height: 480px;margin: auto;}
+.class4 {color: #ff1a4f; font-family: Calibri Light; background: white;}
+.class3 {color: violet; font-family: Tahoma;}
+.footer {color: white; font-family: Segoe UI;}
+</style>
+</head>
+<title>Welcome</title>
+<body background="Photos & Resources/atmosphere.jpg">
+<link href="CSS Files/style.css" rel="stylesheet" >
+<img src="Photos & Resources/logo.png" width="1330px" height="140px">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a>About Us</a>
+<UL>
+<Li><a href="HTML Files/history.html">History</a></Li>
+<Li><a href="HTML Files/salient features.html">Salient Features</a></Li>
+<Li><a href="HTML Files/rules.html">Rules For Students</a></Li>
+<Li><a href="HTML Files/recommendation.HTML">Recommendations</a></Li>
+</UL>
+<li><a>Academics</a>
+<UL>
+<Li><a href="HTML Files/examination.HTML">Examination</a></Li>
+<Li><a href="HTML Files/curriculum.HTML">Curriculum</a></Li>
+<Li><a href="HTML Files/school uniform.HTML">Uniform and Timing</a></Li>
+<Li><a href="HTML Files/fees structure.html">Fees Structure</a></Li>
+</UL>
+<li><a>Facilities</a>
+<UL>
+<Li><a href="HTML Files/Library.htm">Library & Canteen</a></Li>
+<Li><a href="HTML Files/science park.HTML">Science Park</a></Li>
+<Li><a href="HTML Files/clinic.html">First Aid</a></Li>
+<Li><a href="HTML Files/labs.html">Labs</a></Li>
+</UL>
+<li><a>Activities</a>
+<UL>
+<Li><a href="HTML Files/sports.HTML">Sports</a></Li>
+<Li><a href="HTML Files/tour.html">Educational Tour</a></Li>
+<Li><a href="HTML Files/astronomy.html">Astronomy</a></Li>
+</UL>
+<li><a href="HTML Files/gallery.html">Gallery</a>
+</ul>
+<script>
+	var images = [
+  "Photos & Resources/office.jpg",
+  "Photos & Resources/outside.jpg",
+  "Photos & Resources/Office 3.jpg",
+  "Photos & Resources/gate.jpg",
+  "Photos & Resources/prize.jpg",
+  "Photos & Resources/kidsbackground.jpg",
+  "Photos & Resources/Tabletennis.jpg",
+  "Photos & Resources/volleyball.jpg",
+  "Photos & Resources/hall.jpg",
+  "Photos & Resources/gnschool.jpg"
+];
+var i = 0;
+function slides() {
+  console.log("Current index: " + i);  // Logs the index value
+  console.log("Image source: " + images[i]); // Logs the image path
+  // Check if images[i] is valid before updating the src
+  if (images[i]) {
+    document.getElementById("slideimage").src = images[i];
+  } else {
+    console.error("Error: Image source is undefined for index " + i);
+  }
+  i = (i + 1) % images.length;
+}
+setInterval(slides, 3800);
+slides();
+</script>
+<div class="slideshow">
+<img src="Photos & Resources/office.jpg" id="slideimage">
+</div>
+<CENTER>
+<img src="Photos & Resources/cbselogo.png" height="320px width="320px" VSPACE=90 HSPACE=20 align=right>
+</CENTER>
+<div class="class3">
+<CENTER><h1>Introduction</h1></CENTER>
+<div class="class4">
+<p style="border:2px; border-style:solid; border-color:black; padding: 1em;">
+<FONT SIZE=6>T</FONT>
+<B>his School was started with primary classes. Later we opened the Junior Section. After that we got the permission from CBSE to start the Secondary Section in the year 1996. In 1998, CBSE granted us affiliation to upgrade the School
+up to the Senior Secondary Level for Science,Humanities and Commerce subjects and the classes are going on under the Science stream. We aim to achieve higher goals in the field of education by following internationally recognized pedagogical techniques and make innovation.
+The School emphasizes on interactive and child centered education.Keeping this in mind we have a system of flexible syllabus in order to suit the  
+pace of learning of the students and we lessen the burden of home work.
+<FONT SIZE=6>T</FONT>he aim of the school is to provide proper and best education to the children. The School imparts education in Primary, Junior, Secondary and Senior Secondary level with the aid of latest scientific apparatus and teaching aids.
+The school provides education under the guidance and control of a highly qualified staff. Computer Eduacation is also provided from Class-I onwards. We help our students to develop their personality on progressive lines with a comprehensive
+mental outlook and विद्ययामृतमश्नुते (vidyayamrtamasnute) self-confidence based on sound character and good conduct to face the future.
+These include English Week, Hindi Week and the celebration of important festivals. Inter-house activities include recitation, slogan-writing, essay writing, poster-making, calligraphy, drawing and quiz competitions.
+Inter-house competitions in games like volleyball, basketball, and kho-kho are held. Mass P.T, outdoor and indoor games are provided also Students have participated in interscholastic contests like, Basketball, Volleyball, Badminton etc.
+G.N.National Public School located in Gorakhnath Gorakhpur,Uttar Pradesh is a Co-Educational Senior Secondary institution affiliated to the Central Board of Secondary Education (CBSE) on Provisional basis since 1991. The school has been operating officially under the trust/society G N Manav Kalyan Sansthan. The school is equipped with 75 class rooms and all essential facilities. If you're looking for details in admission/application forms, fees, school timings, vacations/holidays schedule or facilities provided, kindly visit the relevant department of the school.
+ <a href="HTML Files/history.html">Read more..</a>
+</B>
+</p>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14247.945951165268!2d83.35782486945392!3d26.77670064826314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39914449fbd31035%3A0x15468c130193ebae!2sG.N.+National+Public+School!5e0!3m2!1sen!2sin!4v1542285970880" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen="">
+</iframe>
+<div class="footer" style="background-color: #3399ff;padding: 10px">
+<center style="margin-bottom: 10px; font-weight: bold;">
+<span style="font-size:11px;"></span>
+ Call us at : <a style="color: #000;font-weight: bold;"><U>0551-2250758</U></a>, 
+<a style="color: #000; font-weight: bold;"><U>0551-2250757</U></a>
+ KG : <a style="color: #000;font-weight: bold;"><U>0551–2205554</U></a></center>
+<center style="margin-top: -10px; margin-bottom: 15px;">
+<style="font-size:11px;">Mail us at: <a style="color: #000" href="mailto:gnnps.gkp@gmail.com?">gnnps.gkp@gmail.com</a>
+		</center>
+		<center>© 2018 All Right reserved by G. N. National Public School, Gorakhpur</center>
+  		<center>Powered by <a href="humko apni koi html page likhna hoga idhar" style="color: #000">Surya Yadav</a> | 
+  		Visitor Count : <script type="text/javascript" src="https://freehitcounters.org/count/gprf"></script><br>
+		  <a href='http://www.freevisitorcounters.com'>www.Freevisitorcounters</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=f7f13e041a3bc573c5d7e7b7ef52124a9a7e5402'></script>
+</center>
+</div>
+</body>
+</html>
